@@ -13,7 +13,7 @@ Pass the token as a cookie header.
 
 ## Your task
 
-Add a `list_datasets(token)` function to `apiml_client.py`:
+Add a `list_datasets(token)` function to [Open `apiml_client.py`](open:apiml_client.py):
 
 ```python
 def list_datasets(token):

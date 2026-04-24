@@ -15,7 +15,7 @@ A successful response returns `200 OK` with the token in the `apimlAuthenticatio
 
 ## Your task
 
-Implement `get_token()` in `apiml_client.py`:
+Implement `get_token()` in [Open `apiml_client.py`](open:apiml_client.py):
 
 ```python
 def get_token():

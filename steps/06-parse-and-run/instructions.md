@@ -14,7 +14,7 @@ The downloaded data arrives as mainframe **fixed-width format** — each record 
 
 ## Your task
 
-Add `parse_records(raw_text)` to `apiml_client.py`:
+Add `parse_records(raw_text)` to [Open `apiml_client.py`](open:apiml_client.py):
 
 ```python
 def parse_records(raw_text):

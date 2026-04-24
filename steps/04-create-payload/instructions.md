@@ -4,7 +4,7 @@ The next two API calls (clean and download) share a common structure: they both 
 
 ## Your task
 
-Add `create_payload(**kwargs)` to `apiml_client.py`:
+Add `create_payload(**kwargs)` to [Open `apiml_client.py`](open:apiml_client.py):
 
 ```python
 def create_payload(**kwargs):

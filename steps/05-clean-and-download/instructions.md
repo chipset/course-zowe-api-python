@@ -7,7 +7,7 @@ Now you'll use two more endpoints to process the data:
 
 ## Your task
 
-Add both functions to `apiml_client.py`:
+Add both functions to [Open `apiml_client.py`](open:apiml_client.py):
 
 ```python
 def clean_datasets(token):
