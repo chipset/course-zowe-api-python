@@ -1,0 +1,46 @@
+{
+  "id": "zowe-api-python",
+  "title": "Mainframe API Integration with Zowe and Python",
+  "version": "1.0.0",
+  "engineVersion": ">=0.1.0",
+  "steps": [
+    {
+      "id": "setup",
+      "title": "Project Setup",
+      "instructions": "steps/01-setup/instructions.md",
+      "starter": "steps/01-setup/starter",
+      "validator": "steps/01-setup/validate.js"
+    },
+    {
+      "id": "authentication",
+      "title": "Authentication",
+      "instructions": "steps/02-authentication/instructions.md",
+      "starter": "steps/02-authentication/starter",
+      "validator": "steps/02-authentication/validate.js"
+    },
+    {
+      "id": "list-datasets",
+      "title": "List Mainframe Datasets",
+      "instructions": "steps/03-list-datasets/instructions.md",
+      "validator": "steps/03-list-datasets/validate.js"
+    },
+    {
+      "id": "create-payload",
+      "title": "Create a Payload Helper",
+      "instructions": "steps/04-create-payload/instructions.md",
+      "validator": "steps/04-create-payload/validate.js"
+    },
+    {
+      "id": "clean-and-download",
+      "title": "Trigger Cleaning and Download Results",
+      "instructions": "steps/05-clean-and-download/instructions.md",
+      "validator": "steps/05-clean-and-download/validate.js"
+    },
+    {
+      "id": "parse-and-run",
+      "title": "Parse Results and Run",
+      "instructions": "steps/06-parse-and-run/instructions.md",
+      "validator": "steps/06-parse-and-run/validate.js"
+    }
+  ]
+}
